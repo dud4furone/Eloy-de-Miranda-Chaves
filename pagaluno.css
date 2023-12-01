@@ -1,0 +1,124 @@
+body {
+    background-color: #D2D7D8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+#header {
+    background-color: #00569d;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#logo { /*banner*/
+    width: 1870px;
+    height: 200px;
+    }
+
+/*botões do menu*/
+#menu {
+    background-color: #D2D7D8;
+    text-align: center;
+    padding: 10px;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+#menu li {
+    display: inline;
+    margin: 0 px;
+}
+
+.footer {
+    background-color: #00569d;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+ 
+}
+
+/* Estilo para os links das imagens no rodapé */
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    width: 20px;
+}
+
+/* Estilo para o número de telefone */
+.phone {
+    font-weight: bold;
+}
+
+/* Estilo para o pequeno texto no rodapé */
+.text {
+    font-size: 14px;
+}
+
+#search-box {
+text-align: center;
+margin-top: 20px;
+background-color: #D2D7D8; /* Altere a cor de fundo da barra de busca */
+border-radius: 5px; /* Adicione bordas arredondadas à barra de busca */
+padding: 10px;
+}
+
+#search-input {
+width: 20%; /* Ajuste a largura do campo de entrada de busca conforme necessário */
+padding: 8px;
+border: 1px solid #ccc; /* Adicione uma borda à caixa de entrada */
+border-radius: 5px; /* Adicione bordas arredondadas à caixa de entrada */
+font-size: 16px; /* Ajuste o tamanho da fonte conforme necessário */
+}
+
+#search-button {
+background-color: #00569d; /* Altere a cor de fundo do botão de busca */
+color: #fff; /* Altere a cor do texto do botão de busca */
+padding: 8px 16px;
+border: none;
+border-radius: 5px; /* Adicione bordas arredondadas ao botão de busca */
+cursor: pointer;
+font-size: 16px; /* Ajuste o tamanho da fonte do botão conforme necessário */
+}
+
+#search-button:hover {
+background-color: #014175; /* Altere a cor de fundo quando o botão de busca for hover */
+}
+
+/*INICIO DO CSS*/ #back-to-top {
+
+    
+   /* Inicialmente, o botão está oculto */
+    background-color: #fff;
+    color: #00569d;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    bottom: 10px;
+    right: 20px;
+    cursor: pointer;
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+  }
+  
+  #back-to-top:hover {
+    background-color: #ffffff7c;
+  }
+  
+  .titulo-bonito {
+    color: #03569d; /* Substitua pela cor desejada */
+    font-family: 'Impact', sans-serif; /* Fonte personalizada (substitua 'FontePersonalizada' pelo nome da sua fonte) */
+    font-size: 50px; /* Ajuste o tamanho conforme necessário */
+    position: center;
+    text-shadow: 2px 2px 4px rgb(255, 240, 240); /* Ajuste os valores conforme necessário */
+}

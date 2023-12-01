@@ -1,0 +1,67 @@
+/**Galeria*/
+.galeria {
+    display: flex;
+    justify-content: center;
+}
+
+.galeria img {
+    margin: 6px; /* Espaço entre as imagens */
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.galeria img:hover {
+    transform: scale(1.1);
+}
+
+.imagem-ampliada {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+.imagem-ampliada img {
+    max-width: 150%;
+    max-height: 150%;
+    margin: 10% auto;
+
+}
+
+.legenda {
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    
+}
+.fechar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 54px;
+    cursor: pointer;
+}
+
+.voltar {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: white;
+    padding: 10px 20px;
+    color: #00569d;
+    border: none;
+    cursor: pointer;
+    height: 60px;
+    width: 120px;
+    font-size: 25px;
+}
+
+.voltar:hover {
+    background: #013a69c4;
+}

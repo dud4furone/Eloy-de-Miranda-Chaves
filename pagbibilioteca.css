@@ -1,0 +1,281 @@
+body {
+    background-color: #D2D7D8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+#header {
+    background-color: #00569d;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#logo { /*banner*/
+    width: 1870px;
+    height: 200px;
+    }
+
+/*botões do menu*/
+#menu {
+    background-color: #D2D7D8;
+    text-align: center;
+    padding: 10px;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+#menu li {
+    display: inline;
+    margin: 0 px;
+}
+
+/*Titulo*/
+#titulo {
+        background-color: #035691;
+        color: white;
+        text-align: center;
+        padding: 1em 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+/*Rodapé*/
+
+.footer {
+    background-color: #00569d;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+ 
+}
+
+/* Estilo para os links das imagens no rodapé */
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    width: 20px;
+}
+
+/* Estilo para o número de telefone */
+.phone {
+    font-weight: bold;
+}
+
+/* Estilo para o pequeno texto no rodapé */
+.text {
+    font-size: 14px;
+}
+
+#search-box {
+text-align: center;
+margin-top: 20px;
+background-color: #D2D7D8; /* Altere a cor de fundo da barra de busca */
+border-radius: 5px; /* Adicione bordas arredondadas à barra de busca */
+padding: 10px;
+}
+
+#search-input {
+width: 20%; /* Ajuste a largura do campo de entrada de busca conforme necessário */
+padding: 8px;
+border: 1px solid #ccc; /* Adicione uma borda à caixa de entrada */
+border-radius: 5px; /* Adicione bordas arredondadas à caixa de entrada */
+font-size: 16px; /* Ajuste o tamanho da fonte conforme necessário */
+}
+
+#search-button {
+background-color: #00569d; /* Altere a cor de fundo do botão de busca */
+color: #fff; /* Altere a cor do texto do botão de busca */
+padding: 8px 16px;
+border: none;
+border-radius: 5px; /* Adicione bordas arredondadas ao botão de busca */
+cursor: pointer;
+font-size: 16px; /* Ajuste o tamanho da fonte do botão conforme necessário */
+}
+
+#search-button:hover {
+background-color: #014175; /* Altere a cor de fundo quando o botão de busca for hover */
+}
+
+#back-to-top {
+    /* Inicialmente, o botão está oculto */
+     background-color: #fff;
+     color: #00569d;
+     padding: 10px 20px;
+     border-radius: 50px;
+     text-align: center;
+     text-decoration: none;
+     bottom: 10px;
+     right: 20px;
+     cursor: pointer;
+     height: 40px;
+     width: 150px;
+     font-size: 15px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     
+   }
+   
+   #back-to-top:hover {
+     background-color: #ffffff7c;
+   }
+   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+   *{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+       font-family: 'Poppins', sans-serif;
+   }
+   section{
+       position: relative;
+       width: 100%;
+       min-height: 100vh;
+       padding: 100px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       background: #00569d;
+       overflow: hidden;
+   }
+   .circle{
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       background: #ffc107;
+       clip-path: circle(50% at bottom right);
+   }
+   header{
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       padding: 40px 100px;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+   }
+   header .logo{
+       position: relative;
+       max-width: 150px;
+   }
+   header .navegation ul{
+       position: relative;
+       display: flex;
+   }
+   header .navegation  li{
+       list-style: none;
+   }
+   header .navegation li a{
+       display: inline-block;
+       color: #fff;
+       font-weight: 500;
+       text-decoration: none;
+       font-size: 19px;
+       margin-left: 100px;
+   }
+   .content{
+       position: relative;
+       width: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+   }
+   .content .text{
+       position: relative;
+       max-width: 600px;
+       margin-right: 20px;
+   }
+   .content .text h2{
+       color: #fff;
+       font-size: 3em;
+       margin-bottom: 10px;
+       line-height: 2.5em;
+       font-weight: 700;
+   }
+   .content .text h2 span{
+       font-size: 3.5em;
+       color: #ffc107;
+   }
+   .content .text p{
+       color: #fff;
+   }
+   .content .text a{
+       display: inline-block;
+       margin-top: 50px;
+       padding: 10px 25px;
+       background: #ffc107;
+       color: #fff;
+       font-weight: 500;
+       letter-spacing: 1px;
+       text-decoration: none;
+       border-radius: 40px;
+       transition: 0.3s ease-in-out;
+   }
+   .content .text a:hover{
+       transform: translateY(-10px);
+   }
+   .icons{
+       position: absolute;
+       bottom: 40px;
+       left: 100px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   .icons li{
+       list-style: none;
+   }
+   .icons li a{
+       display: inline-block;
+       margin-left: 45px;
+       background: #222;
+       width: 50px;
+       height: 50px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border-radius: 50%;
+       transition:  0.3s ease-in-out;
+   }
+   .icons li a:hover{
+       background: #e51e2a;
+       transform: translateY(-10px);
+   }
+   .icons li a img{
+       filter: invert(1);
+       transform: scale(0.5);
+   }
+   .boxImg{
+       position: absolute;
+       right: 0;
+       bottom: -40px;
+   }
+   .boxImg img{
+       width: 1000px;
+       
+   }
+   .boxImg .img1{
+       transform: rotate(2deg)
+   }
+   
+   .boxImg .img2{
+       transform: rotate(2deg)
+   }
+   .boxImg .img3{
+       transform: rotate(2deg)
+   }
+   .boxImg .img4{
+       transform: rotate(2deg)
+   }
+
+   
+   p{
+    font-size: large;
+   }
